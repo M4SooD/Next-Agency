@@ -1,5 +1,5 @@
 import styles from "../styles/Intro.module.css";
-import Image from "next/image";
+import img from "next/image";
 import Circle from "./Circle";
 const Intro = () => {
   return (
@@ -17,8 +17,8 @@ const Intro = () => {
         <button className={styles.button}>DISCOVER</button>
       </div>
       <div className={styles.card}>
-        <Image
-          src={process.env.NEXT_PUBLIC_URL + "/../public/img/Avocado.png"}
+        <img
+          src="/../public/img/Avocado.png"
           width="100%"
           height="100%"
           layout="fill"
